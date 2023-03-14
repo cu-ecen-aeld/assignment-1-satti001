@@ -3,7 +3,11 @@
 # Check if both arguments were provided
 if [ $# -ne 2 ]; then
   echo "Usage: $0 filesdir searchstr"
+<<<<<<< HEAD
   return 1
+=======
+  exit 1
+>>>>>>> a8c900081bb97082bc8ddd8eb0294cc5567e4778
 fi
 
 # Assign arguments to variables
